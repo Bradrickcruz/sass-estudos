@@ -1,0 +1,70 @@
+.btn {
+  padding: 10px 0;
+  margin: 5px;
+  flex: 1;
+  background: none;
+  border: 0;
+  border-radius: 10px;
+}
+.btn.btn-laranja {
+  background: orange;
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+.btn.btn-laranja:hover {
+  background: #ffbb3d;
+}
+.btn.btn-azul {
+  background: blue;
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+.btn.btn-azul:hover {
+  background: #3d3dff;
+}
+.btn.btn-roxo {
+  background: purple;
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+.btn.btn-roxo:hover {
+  background: #bd00bd;
+}
+.btn.btn-amarelo {
+  background: yellow;
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+.btn.btn-amarelo:hover {
+  background: #ffff3d;
+}
+.btn.btn-vermelho {
+  background: red;
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+.btn.btn-vermelho:hover {
+  background: #ff3d3d;
+}
+.btn.btn-verde {
+  background: green;
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+.btn.btn-verde:hover {
+  background: #00bd00;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */

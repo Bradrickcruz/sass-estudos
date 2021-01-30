@@ -1,0 +1,6 @@
+$color-labels: 'laranja', 'azul', 'roxo', 'amarelo', 'vermelho', 'verde';
+$colors: orange, blue, purple, yellow, red, green;
+
+@function getColorLabel($color-list, $color) {
+  @return list.nth($color-labels, list.index($color-list, $color));
+}
